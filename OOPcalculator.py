@@ -51,3 +51,8 @@ class Calculator:
             print("Invalid input! Please enter valid numbers.")
             self.run_calculator()
 
+        # check for zero division errors
+        except ZeroDivisionError:
+            print("Error: Cannot divide by zero!")
+            self.run_calculator
+
