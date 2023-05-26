@@ -20,3 +20,6 @@ class Calculator:
             operation = input("choose an operation (+, -, *, /): ")
             # ask user for the first number
             num1 = float(input("enter the first number: "))
+            # ask user for the second number
+            num2 = float(input("enter the second number: "))
+            
