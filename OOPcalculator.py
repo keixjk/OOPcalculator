@@ -18,3 +18,5 @@ class Calculator:
         try:
             # ask user for an operation
             operation = input("choose an operation (+, -, *, /): ")
+            # ask user for the first number
+            num1 = float(input("enter the first number: "))
