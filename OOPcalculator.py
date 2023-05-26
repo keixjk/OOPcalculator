@@ -35,5 +35,8 @@ class Calculator:
             else:
                 print("Invalid operation")
                 return
+            
+            # print result
+            print("Result:", result)
 
 
