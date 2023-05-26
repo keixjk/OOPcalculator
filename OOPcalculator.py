@@ -22,4 +22,18 @@ class Calculator:
             num1 = float(input("enter the first number: "))
             # ask user for the second number
             num2 = float(input("enter the second number: "))
-            
+
+            # solve the input operation and numbers
+            if operation == "+":
+                result = self.add(num1, num2)
+            if operation == "-":
+                result = self.subtract(num1, num2)
+            if operation == "*":
+                result = self.multiply(num1, num2)
+            if operation == "/":
+                result = self.divide(num1, num2)
+            else:
+                print("Invalid operation")
+                return
+
+
