@@ -12,4 +12,9 @@ class Calculator:
     def multiply (self, num1, num2):
         return num1 * num2
     def divide (self, num1, num2):
-        return num1 / num2
+        return num1 / num2 
+    
+    def run_calculator(self):
+        try:
+            # ask user for an operation
+            operation = input("choose an operation (+, -, *, /): ")
