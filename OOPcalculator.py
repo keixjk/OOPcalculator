@@ -56,3 +56,7 @@ class Calculator:
             print("Error: Cannot divide by zero!")
             self.run_calculator
 
+# create an instance of the calculator class and run the calculator
+calculator = Calculator()
+calculator.run_calculator()
+
