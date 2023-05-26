@@ -46,3 +46,8 @@ class Calculator:
             else:
                 print("Thank you!")
 
+        # check for Value error
+        except ValueError:
+            print("Invalid input! Please enter valid numbers.")
+            self.run_calculator()
+
